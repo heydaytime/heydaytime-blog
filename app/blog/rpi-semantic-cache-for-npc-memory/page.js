@@ -18,6 +18,12 @@ export default function BlogPost() {
       <p className={styles.date}>April 6, 2026</p>
 
       <article className={styles.content}>
+        <p className={styles.repoLink}>
+          <a href="https://github.com/heydaytime/qdrant-rpi" target="_blank" rel="noopener noreferrer">
+            View the code on GitHub →
+          </a>
+        </p>
+
         <p>
           I wanted to build a game with lots of AI NPC interactions. The issue was
           not just retrieval speed. The issue was bad context showing up at the
@@ -198,6 +204,17 @@ export default function BlogPost() {
 # (Script executed during this writeup.)
 PY`}</code>
         </pre>
+
+        <hr className={styles.divider} />
+
+        <div className={styles.socials}>
+          <p>Find me elsewhere:</p>
+          <ul>
+            <li><a href="https://github.com/heydaytime/qdrant-rpi" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://www.youtube.com/@heydaytime" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+            <li><a href="https://www.linkedin.com/in/mihir-belose/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          </ul>
+        </div>
       </article>
     </main>
   )
